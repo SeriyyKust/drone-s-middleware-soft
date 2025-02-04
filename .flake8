@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 90
+max-complexity = 8
+extend-ignore = E701
+per-file-ignores =
+	__init__.py:F401
+exclude =
+	.git,
+	__pycache__,
+	.tox,
+	.eggs,
+	*.egg,
+	.venv

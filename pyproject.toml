@@ -7,6 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.12.2"
+redis = "^5.2.1"
+fastapi = "^0.115.8"
+pydantic-settings = "^2.7.1"
+sqlalchemy = "^2.0.37"
+aiogram = "^3.17.0"
+websockets = "^14.2"
+flake8 = "^7.1.1"
+black = "^25.1.0"
+uvicorn = "^0.34.0"
+aiosqlite = "^0.21.0"
 
 
 [build-system]
